@@ -12,11 +12,19 @@
             .navbar-toggler {
                 border: none;
             }
+            .nav-link:hover {
+                color: #007bff !important;
+            }
+            .navbar {
+                background-color: rgb(255, 255, 255) !important;
+                background: linear-gradient(to right, #007bff, #000) left bottom transparent no-repeat;
+                background-size: 100% 1px;
+            }
         </style>
     </head>
     <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Connected Optics</a>
+            <a class="navbar-brand" href="index.html"><span class="font-weight-light" style="color: #007bff;">Connected</span>Optics</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,11 +48,11 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center px-5 pt-5 p-md-5">
-                    <div style="background-color: gray; width: 200px; height: 200px; border-radius: 100px;"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom right, #007bff, #000); width: 200px; height: 200px; border-radius: 100px;"><div style="background-color: #fff; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 100px;"></div></div>
                 </div>
-                <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start p-5 py-md-5 pr-md-5 pl-md-0">
+                <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start justify-content-center p-5 py-md-5 pr-md-5 pl-md-0">
                     <h2>Open Glass</h2>
-                    <p class="text-center text-md-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae risus in metus tempor tincidunt quis in risus. Cras ut felis id risus tempor malesuada ut nec odio. Vestibulum placerat ultricies leo, eget rutrum lorem tincidunt ut. Sed sit amet risus lacinia, convallis nunc vitae, maximus ante. Phasellus suscipit lacus purus, ac commodo justo vestibulum consectetur. Vestibulum accumsan tempus eros consectetur pellentesque.</p>
+                    <p class="text-center text-md-left">Our first product is a pair of low-cost smart glasses. The Open Glass offers a micro-display and compute platform in an aesthetic design and form factor not much different than everyday glasses.</p>
                 </div>
             </div>
             <div class="row">
@@ -54,26 +62,29 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center px-5 pt-5 p-md-5">
-                    <div style="background-color: gray; width: 100px; height: 100px; border-radius: 100px;"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom right, #007bff, #000); width: 125px; height: 125px; border-radius: 100px;"><div style="background-color: #fff; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 100px;"></div></div>
                 </div>
                 <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start justify-content-center p-5 py-md-5 pr-md-5 pl-md-0">
-                    <h5>Feature 1</h5>
+                    <h5>Projected Display</h5>
+                    <h6 class="font-weight-light mb-4">Visible in sunlight yet unobstructive to vision.</h6>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center px-5 pt-5 p-md-5">
-                    <div style="background-color: gray; width: 100px; height: 100px; border-radius: 100px;"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom right, #007bff, #000); width: 125px; height: 125px; border-radius: 100px;"><div style="background-color: #fff; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 100px;"></div></div>
                 </div>
                 <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start justify-content-center p-5 py-md-5 pr-md-5 pl-md-0">
-                    <h5>Feature 2</h5>
+                    <h5>Intuitive Touch Interface</h5>
+                    <h6 class="font-weight-light mb-4">Simple touch gestures accesible on the side of the frame.</h6>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center px-5 pt-5 p-md-5">
-                    <div style="background-color: gray; width: 100px; height: 100px; border-radius: 100px;"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom right, #007bff, #000); width: 125px; height: 125px; border-radius: 100px;"><div style="background-color: #fff; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 100px;"></div></div>
                 </div>
                 <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start justify-content-center p-5 py-md-5 pr-md-5 pl-md-0">
-                    <h5>Feature 3</h5>
+                    <h5>Smart Assistant</h5>
+                    <h6 class="font-weight-light mb-4">Wide range of functions available through voice commands.</h6>
                 </div>
             </div>
             <div class="row pt-5">
@@ -83,37 +94,39 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center px-5 pt-5 p-md-5">
-                    <div style="background-color: gray; width: 100px; height: 100px; border-radius: 100px;"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom right, #007bff, #000); width: 125px; height: 125px; border-radius: 100px;"><div style="background-color: #fff; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 100px;"></div></div>
                 </div>
                 <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start justify-content-center p-5 py-md-5 pr-md-5 pl-md-0">
-                    <h5>Key Specification 1</h5>
+                    <h5>Powerful Compute Platform</h5>
+                    <h6 class="font-weight-light mb-4">Raspberry Pi Zero W with 1.0 GHz ARM CPU</h6>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center px-5 pt-5 p-md-5">
-                    <div style="background-color: gray; width: 100px; height: 100px; border-radius: 100px;"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom right, #007bff, #000); width: 125px; height: 125px; border-radius: 100px;"><div style="background-color: #fff; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 100px;"></div></div>
                 </div>
                 <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start justify-content-center p-5 py-md-5 pr-md-5 pl-md-0">
-                    <h5>Key Specification 2</h5>
+                    <h5>High Resolution Screen</h5>
+                    <h6 class="font-weight-light mb-4">160 x 80 px</h6>
                 </div>
             </div>
             <div class="row">
                 <div class="offset-md-4 col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start justify-content-center p-5 py-md-5 pr-md-5 pl-md-0">
-                    <h5 class="font-weight-normal">Minor Specification 1</h5>
-                    <h6 class="font-weight-light mb-4">Minor specification 1 value</h6>
-                    <h5 class="font-weight-normal">Minor Specification 2</h5>
-                    <h6 class="font-weight-light mb-4">Minor specification 2 value</h6>
-                    <h5 class="font-weight-normal">Minor Specification 3</h5>
-                    <h6 class="font-weight-light mb-4">Minor specification 3 value</h6>
-                    <h5 class="font-weight-normal">Minor Specification 4</h5>
-                    <h6 class="font-weight-light mb-4">Minor specification 4 value</h6>
-                    <h5 class="font-weight-normal">Minor Specification 5</h5>
-                    <h6 class="font-weight-light mb-4">Minor specification 5 value</h6>
+                    <h5 class="font-weight-normal">Camera</h5>
+                    <h6 class="font-weight-light mb-4">8 MP</h6>
+                    <h5 class="font-weight-normal">Touch Interface</h5>
+                    <h6 class="font-weight-light mb-4">12 Zone Touchpad</h6>
+                    <h5 class="font-weight-normal">Audio</h5>
+                    <h6 class="font-weight-light mb-4">Bone Conduction Speaker & 3.5 mm</h6>
+                    <h5 class="font-weight-normal">Connectivity</h5>
+                    <h6 class="font-weight-light mb-4">WiFi (802.11a/b/g/n) & Bluetooth 4.1</h6>
+                    <h5 class="font-weight-normal">Battery</h5>
+                    <h6 class="font-weight-light mb-4">3 hours</h6>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center px-5 pt-5 p-md-5">
-                    <div style="background-color: gray; width: 200px; height: 200px; border-radius: 100px;"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom right, #007bff, #000); width: 200px; height: 200px; border-radius: 100px;"><div style="background-color: #fff; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 100px;"></div></div>
                 </div>
                 <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start p-5 py-md-5 pr-md-5 pl-md-0">
                     <h2>Work In Progress</h2>
@@ -123,21 +136,20 @@
             </div>
         </div>
         <div class="row mt-5 p-5" style="background-color: #f8f9fa;">
-                <div class="col-md-4 text-left text-md-right">
-                    <p><a href="#">Home</a></p>
-                    <p><a href="#">Product</a></p>
-                    <p><a href="#">Team</a></p>
-                    <p><a href="#">Blog</a></p>
-                </div>
-                <div class="col-md-8">
-                    <p>Contact Us</p>
-                    <p class="text-secondary font-weight-light pl-3"><a href="mailto:hi@connectedoptics.com">hi@connectedoptics.com</a></p>
-                    <p class="text-secondary font-weight-light pl-3"><a href="mailto:press@connectedoptics.com">press@connectedoptics.com</a></p>
-                </div>
-                <div class="col mt-3">
-                    <p class="text-center text-secondary font-weight-light">© Connected Optics</p>
-                </div>
+            <div class="col-md-4 text-left text-md-right">
+                <p style="color: gray;"><span class="mr-5">Sitemap</span></p>
+                <p style="color: gray;"><span class="mr-5">Social</span></p>
+                <p style="color: gray;"><span class="mr-5">Contact</span></p>
             </div>
+            <div class="col-md-8 mb-5">
+                <p style="color: gray;"><a href="index.html">Home</a>・<a href="product.html">Product</a>・<a href="team.html">Team</a>・<a href="blog.html">Blog</a></p>
+                <p style="color: gray;"><a href="index.html">Facebook</a>・<a href="product.html">Twitter</a>・<a href="team.html">Instagram</a></p>
+                <p style="color: gray;"><a href="mailto:hi@connectedoptics.com">hi@connectedoptics.com</a></p>
+            </div>
+            <div class="col mt-5">
+                <p class="text-center text-secondary font-weight-light">© Connected Optics 2018</p>
+            </div>
+        </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>

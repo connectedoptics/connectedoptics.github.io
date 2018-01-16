@@ -12,11 +12,19 @@
             .navbar-toggler {
                 border: none;
             }
+            .nav-link:hover {
+                color: #007bff !important;
+            }
+            .navbar {
+                background-color: rgb(255, 255, 255) !important;
+                background: linear-gradient(to right, #007bff, #000) left bottom transparent no-repeat;
+                background-size: 100% 1px;
+            }
         </style>
     </head>
     <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Connected Optics</a>
+            <a class="navbar-brand" href="index.html"><span class="font-weight-light" style="color: #007bff;">Connected</span>Optics</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,7 +48,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center px-5 pt-5 p-md-5">
-                    <div style="background-color: gray; width: 200px; height: 200px; border-radius: 100px;"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom right, #007bff, #000); width: 200px; height: 200px; border-radius: 100px;"><div style="background-color: #fff; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 100px;"></div></div>
                 </div>
                 <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start p-5 py-md-5 pr-md-5 pl-md-0">
                     <h2>Fan Zhang</h2>
@@ -49,7 +57,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center px-5 pt-5 p-md-5">
-                    <div style="background-color: gray; width: 200px; height: 200px; border-radius: 100px;"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom right, #007bff, #000); width: 200px; height: 200px; border-radius: 100px;"><div style="background-color: #fff; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 100px;"></div></div>
                 </div>
                 <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start p-5 py-md-5 pr-md-5 pl-md-0">
                     <h2>Andy Su</h2>
@@ -58,7 +66,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-lg-4 d-flex justify-content-center align-items-center px-5 pt-5 p-md-5">
-                    <div style="background-color: gray; width: 200px; height: 200px; border-radius: 100px;"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom right, #007bff, #000); width: 200px; height: 200px; border-radius: 100px;"><div style="background-color: #fff; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 100px;"></div></div>
                 </div>
                 <div class="col-md-8 col-lg-8 d-flex flex-column align-items-center align-items-md-start p-5 py-md-5 pr-md-5 pl-md-0">
                     <h2>Bill Jiang</h2>
@@ -67,21 +75,20 @@
             </div>
         </div>
         <div class="row mt-5 p-5" style="background-color: #f8f9fa;">
-                <div class="col-md-4 text-left text-md-right">
-                    <p><a href="#">Home</a></p>
-                    <p><a href="#">Product</a></p>
-                    <p><a href="#">Team</a></p>
-                    <p><a href="#">Blog</a></p>
-                </div>
-                <div class="col-md-8">
-                    <p>Contact Us</p>
-                    <p class="text-secondary font-weight-light pl-3"><a href="mailto:hi@connectedoptics.com">hi@connectedoptics.com</a></p>
-                    <p class="text-secondary font-weight-light pl-3"><a href="mailto:press@connectedoptics.com">press@connectedoptics.com</a></p>
-                </div>
-                <div class="col mt-3">
-                    <p class="text-center text-secondary font-weight-light">© Connected Optics</p>
-                </div>
+            <div class="col-md-4 text-left text-md-right">
+                <p style="color: gray;"><span class="mr-5">Sitemap</span></p>
+                <p style="color: gray;"><span class="mr-5">Social</span></p>
+                <p style="color: gray;"><span class="mr-5">Contact</span></p>
             </div>
+            <div class="col-md-8 mb-5">
+                <p style="color: gray;"><a href="index.html">Home</a>・<a href="product.html">Product</a>・<a href="team.html">Team</a>・<a href="blog.html">Blog</a></p>
+                <p style="color: gray;"><a href="index.html">Facebook</a>・<a href="product.html">Twitter</a>・<a href="team.html">Instagram</a></p>
+                <p style="color: gray;"><a href="mailto:hi@connectedoptics.com">hi@connectedoptics.com</a></p>
+            </div>
+            <div class="col mt-5">
+                <p class="text-center text-secondary font-weight-light">© Connected Optics 2018</p>
+            </div>
+        </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>

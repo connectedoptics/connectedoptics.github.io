@@ -1,0 +1,28 @@
+body {
+    padding-top: 56px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 900px;
+    }
+
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.98) !important;
+    background: linear-gradient(to right, #007bff, #000) left bottom transparent no-repeat;
+    background-size: 100% 1px;
+}
+
+.footer {
+    background-color: #e9ecef;
+}

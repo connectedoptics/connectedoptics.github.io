@@ -1,0 +1,19 @@
+
+<svg width="52px" height="50px" viewBox="0 0 52 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wip" transform="translate(-9.000000, -9.000000)">
+            <g id="Group" transform="translate(37.000000, 34.500000) rotate(15.000000) translate(-37.000000, -34.500000) translate(18.000000, 7.000000)" stroke="#212529">
+                <rect id="Rectangle" transform="translate(13.612730, 33.043689) scale(-1, 1) rotate(-30.000000) translate(-13.612730, -33.043689) " x="11.8406154" y="10.4546524" width="3.54422863" height="45.1780737"></rect>
+                <rect id="Rectangle-16" transform="translate(27.989229, 8.757624) rotate(30.000000) translate(-27.989229, -8.757624) " x="19.9450007" y="4.07820355" width="16.0884573" height="9.35884101"></rect>
+            </g>
+            <g id="Group-2" transform="translate(34.500000, 34.500000) rotate(-15.000000) translate(-34.500000, -34.500000) translate(16.000000, 7.000000)" stroke="#007BFF">
+                <path d="M6.49519053,0 L12.9903811,3.75 L12.9903811,11.25 L6.49519053,15 L3.10862447e-15,11.25 L-1.11022302e-15,3.75 L6.49519053,0 Z M6.53641522,3.47440227 L2.92974254,5.55671571 L2.92974254,9.7213426 L6.53641522,11.803656 L10.1430879,9.7213426 L10.1430879,5.55671571 L6.53641522,3.47440227 Z" id="Combined-Shape"></path>
+                <path d="M35.8904639,51.6350375 L36.1243557,51.5 L36.1243557,44.5 L30.0621778,41 L24,44.5 L24,51.5 L30.0621778,55 L30.2685878,54.8808292 L30.0965338,52.0143667 L26.7344264,50.0732531 L26.7344264,46.186268 L30.1006542,44.2427755 L33.466882,46.186268 L33.466882,50.0348577 L35.8904639,51.6350375 Z" id="Combined-Shape"></path>
+                <rect id="Rectangle" transform="translate(18.537058, 27.978605) rotate(-30.000000) translate(-18.537058, -27.978605) " x="16.7649433" y="11.2382237" width="3.54422863" height="33.4807621"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

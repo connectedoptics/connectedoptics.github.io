@@ -1,0 +1,23 @@
+
+<svg width="35px" height="50px" viewBox="0 0 35 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18,35 L42,35 L42,35 C48.0751322,35 53,39.9248678 53,46 L53,49 L53,49 C53,55.0751322 48.0751322,60 42,60 L29,60 L29,60 C22.9248678,60 18,55.0751322 18,49 L18,46 L18,35 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="touch" transform="translate(-18.000000, -10.000000)">
+            <g id="Group" transform="translate(18.000000, 10.000000)" stroke="#007BFF">
+                <rect id="Rectangle-10" x="21.5" y="0.5" width="6" height="28" rx="3"></rect>
+                <rect id="Rectangle-10" x="14.5" y="12.5" width="6" height="16" rx="3"></rect>
+                <rect id="Rectangle-10" x="28.5" y="22.5" width="6" height="14" rx="3"></rect>
+                <rect id="Rectangle-10" x="0.5" y="15.5" width="6" height="13" rx="3"></rect>
+                <rect id="Rectangle-10" x="7.5" y="12.5" width="6" height="16" rx="3"></rect>
+            </g>
+            <g id="Rectangle-11">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#212529" stroke-width="1" d="M18.5,35.5 L18.5,49 C18.5,54.7989899 23.2010101,59.5 29,59.5 L42,59.5 C47.7989899,59.5 52.5,54.7989899 52.5,49 L52.5,46 C52.5,40.2010101 47.7989899,35.5 42,35.5 L18.5,35.5 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
